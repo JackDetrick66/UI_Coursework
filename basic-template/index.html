@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My UI</title>
+    
+    
+    <!-- The following line references an external css file -->
+    <!-- It defines style rules for your page, and elements in your page -->
+    <link href="css/style.css" rel="stylesheet">
+        <!-- Load external JS files -->
+    <!-- This is where you will do most of the 'work' for your applications -->
+    <script src="js/main.js"></script>
+    
+</head>
+<body>
+<h1>
+    Hello Unknown User!
+</h1>
+<h2>The time is: <span id="time"></span> on the date: <span id="date"></span></h2>
+
+
+    <svg width="100%" height="25">
+<rect x="0" y="5" width="100%" height="25" fill="red" />
+<rect x="0" y="10" width="100%" height="25" fill="gray" />
+<rect x="0" y="15" width="100%" height="25" fill="black" />
+<rect x="0" y="20" width="100%" height="25" fill="brown" />
+</svg>
+
+    <img class = "imgCenter"; src="https://images.unsplash.com/photo-1595433707802-6b2626ef1c91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80">
+<div>
+<button>Add a photo (THIS DOESN'T WORK)</button>
+</div>
+<svg width="100%" height="25">
+<rect x="0" y="5" width="100%" height="25" fill="red" />
+<rect x="0" y="10" width="100%" height="25" fill="gray" />
+<rect x="0" y="15" width="100%" height="25" fill="black" />
+<rect x="0" y="20" width="100%" height="25" fill="brown" />
+</svg>
+<Quotediv>
+<br>
+"It ain't about how hard you hit. It's about how hard you can get hit and keep moving forward; how much you can take and keep moving forward. That's how winning is done!" 
+<br>
+- Rock Balboa
+<br>
+</Quotediv>
+
+<div class = "column">
+<br>
+<textarea id="textEntry">
+    Write About Your Day !
+</textarea>
+</div>
+
+<div class = "column">
+<sleepDiv>How many hours did you sleep today? <input id="sleepNum">
+</sleepDiv>
+You've slept a total of: <span id="sleepTotal"></span> hours!
+</div>
+
+<div class = "column">
+How did you feel today?<br>
+
+<input id="Tired" type="checkbox"> Tired <br>
+<input id="Happy" type="checkbox"> Happy <br>
+<input id="Sad" type="checkbox"> Sad <br>
+<input id="Motiv" type="checkbox"> Motivated!
+</div>
+
+</body>
+<input id="Submit" type = "button" value = "Submit Your Daily entry!"></input>
+</html>

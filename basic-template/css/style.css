@@ -1,0 +1,38 @@
+/* This is an empty style sheet in CSS */
+.column {
+    float: left;
+    width: 33%;
+}
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+h1,h2{
+    text-align: center;
+}
+body{
+    background-color:bisque;
+}
+.imgCenter{
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+Quotediv{
+color:brown;
+font-weight: bolder;
+}
+
+sleepDiv{
+    color:blueviolet
+}
+
+textarea{
+    
+    max-width: 75%;
+}
